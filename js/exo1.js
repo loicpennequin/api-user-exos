@@ -16,9 +16,7 @@ $(document).ready(function(){
                     myTd.className = myClass;
                     $('#tr' + user.id).append(myTd);
                 };
-
-
-                addCell(user.id, 'id' + user.id, '');
+                addCell(user.id, 'id' + user.id, 'table-button');
                 addCell(user.firstname, 'firstname' + user.id, '');
                 addCell(user.lastname, 'lastname' + user.id, '');
                 addCell('<a href="mailto:' + user.email + '">' + user.email + '</a>', 'email' + user.id, 'td-link');
@@ -41,10 +39,8 @@ $(document).ready(function(){
     $('#listButton').click(function(){
         $('table').toggleClass('table-hidden');
     })
-
     $('#formButton').click(function(){
         $('form').toggleClass('table-hidden');
     })
-
 
 });
