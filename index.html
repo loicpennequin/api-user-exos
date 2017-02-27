@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/exo1.css">
+    </head>
+    <body id="bootstrap-override">
+
+
+        <div class="containter">
+            <div class="row">
+                <div class="col-md-8">
+
+                    <h1 id="listButton">Liste des Utilisateurs</h1>
+                    <div class='table-wrapper'>
+                        <table class="user-list table-hidden" id="userList">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Email</th>
+                                    <th>Birthday</th>
+                                    <th>Sex</th>
+                                    <th>Github</th>
+                                    <th>Pet</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+                    <h1 id="formButton">Modifier un Utilisateur</h1>
+                    <div class="form-wrapper">
+                        <form class="table-hidden" action="index.html" method="post">
+                            <input id="firstName" type="text" name="firstname" value="" placeholder="first name">
+                            <input id="lastName" type="text" name="lastname " value="" placeholder="last name">
+                            <input id="eMail" type="text" name="email" value="" placeholder="e-mail">
+                            <input id="birthDay" type="text" name="birthday" value="" placeholder="date of birth">
+                            <input id="gitHub" type="text" name="github" value="" placeholder="github">
+                            <label> Sexe :</label>
+                            <select name="sex">
+                                <option value="">Homme</option>
+                                <option value="">Femme</option>
+                            </select>
+                            <label> Possède animal :</label>
+                            <select name="pet">
+                                <option value="">Oui</option>
+                                <option value="">Non</option>
+                            </select>
+                            <button type="submit" name="button">Envoyer</button>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="js/exo1.js">
+
+        </script>
+    </body>
+</html>

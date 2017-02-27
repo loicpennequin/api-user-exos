@@ -1,0 +1,77 @@
+html, body {
+  padding: 10px;
+  margin: 0;
+  min-height: 100%; }
+
+body {
+  background: linear-gradient(160deg, #eee, #8d98aa);
+  background: url(../sky.jpg) fixed center no-repeat; }
+
+.list-wrapper {
+  width: 65%;
+  display: inline-block; }
+
+.form-wrapper {
+  width: 30%;
+  display: inline-block; }
+
+.table-wrapper, .form-wrapper {
+  overflow: hidden; }
+
+table {
+  width: 100%;
+  text-align: center;
+  transition: 1.5s;
+  font-size: 1.2em; }
+
+form {
+  transition: 1.5s; }
+
+.table-hidden {
+  transform: translateY(-100%);
+  opacity: 0; }
+
+tr {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #5897fc; }
+
+th {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 2px #5897fc;
+  text-align: center; }
+
+h1 {
+  font-size: 2.5em;
+  font-family: Arial;
+  display: inline-block;
+  border: solid 2px #5897fc;
+  color: #5897fc;
+  text-shadow: 0 0 1px black;
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.8);
+  transition: 0.5s; }
+  h1:hover {
+    color: salmon;
+    border: solid 2px salmon; }
+
+td {
+  height: 2.5em;
+  border: solid 2px #5897fc;
+  transition: 0.3s;
+  text-shadow: 0 0 1px 2px black; }
+  td:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: salmon; }
+
+.td-link a {
+  text-decoration: none;
+  color: #6145e0;
+  font-weight: bold; }
+.td-link:hover a {
+  color: white; }
+
+/*# sourceMappingURL=exo1.css.map */
